@@ -1,4 +1,4 @@
-kmousetool (4.8.4-1) UNRELEASED; urgency=low
+kmousetool (4.8.4-1) unstable; urgency=low
 
   [ Lisandro Damián Nicanor Pérez Meyer ]
   * Initial packaging, split from kdeaccesibility.
@@ -9,4 +9,4 @@ kmousetool (4.8.4-1) UNRELEASED; urgency=low
   * Remove icons from which are not provided anymore in the tarball from the
     install list.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Jun 2012 13:35:24 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 17 Jun 2012 19:12:17 -0300
