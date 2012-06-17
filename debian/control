@@ -1,0 +1,35 @@
+Source: kmousetool
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Sune Vuorela <sune@debian.org>, Modestas Vainius <modax@debian.org>,
+ Eshat Cakar <info@eshat.de>, Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
+ cmake, debhelper (>= 8.0.0), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.8)
+Standards-Version: 3.9.3
+Homepage: http://www.kde.org
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kmousetool.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kmousetool.git
+
+Package: kmousetool
+Architecture: any
+Section: utils
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: mouse manipulation tool for the disabled
+ KMouseTool clicks the mouse whenever the mouse cursor pauses briefly. It was
+ designed to help those with repetitive strain injuries, for whom pressing
+ buttons hurts.
+ .
+ This package is part of the KDE accessibility module.
+
+Package: kmousetool-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: kmousetool (= ${binary:Version}), ${misc:Depends}
+Description: debugging symbols for kmousetool
+ This package contains debugging files used to investigate problems with
+ kmousetool.
+ .
+ This package is part of the KDE accessibility module.
