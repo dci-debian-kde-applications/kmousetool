@@ -1,6 +1,6 @@
 kmousetool (4.8.4-2) UNRELEASED; urgency=low
 
-
+  * Add Breaks+Replaces to kmousetool-dbg against kdeaccessibility-dbg.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 18 Jun 2012 08:14:11 -0300
 

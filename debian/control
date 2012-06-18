@@ -29,6 +29,8 @@ Architecture: any
 Section: debug
 Priority: extra
 Depends: kmousetool (= ${binary:Version}), ${misc:Depends}
+Breaks: kdeaccessibility-dbg
+Replaces: kdeaccessibility-dbg
 Description: debugging symbols for kmousetool
  This package contains debugging files used to investigate problems with
  kmousetool.
