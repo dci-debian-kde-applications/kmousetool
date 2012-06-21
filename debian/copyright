@@ -11,7 +11,11 @@ License: GPL-2.0+
 Files: doc/*
 Copyright: 2002 Jeff Roush <jeff@kmousetool.com>
            2010 Lauri.Watts
-License: GFDL-NIV-1.2
+License: GFDL-NIV-1.2+
+Comment: index.docbook contains the calls &underFDL, &underGPL and &FDLNotice.
+ This serve the purpose to expand the licenses explaining that the doc is under
+ the FDL with no Invariant Sections, with no Front-Cover Texts, and with no
+ Back-Cover Texts and that the program itself is under the GPL.
 
 Files: kmousetool/Xmd_kmousetool.h
 Copyright: 1987-1998  The Open Group
@@ -39,7 +43,7 @@ License: GPL-2.0+
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
-License: GFDL-NIV-1.2
+License: GFDL-NIV-1.2+
  Permission is granted to copy, distribute and/or modify this document
  under the terms of the GNU Free Documentation License, Version 1.2
  or any later version published by the Free Software Foundation;
