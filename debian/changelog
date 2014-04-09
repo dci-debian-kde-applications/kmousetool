@@ -1,9 +1,9 @@
-kmousetool (4:4.12.2-1) UNRELEASED; urgency=medium
+kmousetool (4:4.12.2-1~) UNRELEASED; urgency=medium
 
   * Bump Standards-Version to 3.9.5, no changes needed.
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Feb 2014 19:24:20 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Apr 2014 10:38:30 +0200
 
 kmousetool (4:4.11.3-1) unstable; urgency=low
 
