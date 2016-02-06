@@ -1,8 +1,15 @@
-kmousetool (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+kmousetool (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Merged with Debian
 
- -- Clive Johnston <clivejo@aol.com>  Sat, 02 Jan 2016 14:04:36 +0000
+ -- Clive Johnston <clivejo@aol.com>  Sat, 06 Feb 2016 17:02:56 +0000
+
+kmousetool (4:15.08.3-1) unstable; urgency=medium
+
+  * New upstream release (15.08.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 02 Dec 2015 12:39:07 +0100
 
 kmousetool (4:15.08.2-0ubuntu1) wily; urgency=medium
 
@@ -28,6 +35,12 @@ kmousetool (4:15.07.90-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 10:35:52 +0100
 
+kmousetool (4:15.04.2-1) unstable; urgency=medium
+
+  * New upstream release (15.04.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 19 Sep 2015 19:11:00 +0200
+
 kmousetool (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
@@ -44,6 +57,14 @@ kmousetool (4:14.12.3-0ubuntu1) vivid; urgency=medium
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 13:46:31 -0700
+
+kmousetool (4:14.12.2-1) experimental; urgency=medium
+
+  * Prepare Debian release.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update copyright information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 19 Feb 2015 10:25:15 +0100
 
 kmousetool (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
@@ -66,11 +87,11 @@ kmousetool (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 kmousetool (4:14.11.95-0ubuntu1) vivid; urgency=medium
 
-  * Initial release for KDE applications 14.12 series 
+  * Initial release for KDE applications 14.12 series
    - Change maintainer to Debian/Kubuntu
-   - Fix Watch file applications locations 
+   - Fix Watch file applications locations
    - Fix VCS for new kde-applications location
-  * Debian merge, no remaining changes. 
+  * Debian merge, no remaining changes.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 26 Nov 2014 16:15:57 +0000
 
@@ -294,7 +315,7 @@ kmousetool (4:4.10.2-0ubuntu1) raring; urgency=low
 kmousetool (4:4.10.1-0ubuntu1) raring-proposed; urgency=low
 
   * New upstream bugfix release
-  * Drop obsolete lintian-overrides file from kdeaccessibility 
+  * Drop obsolete lintian-overrides file from kdeaccessibility
 
  -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Mar 2013 16:31:38 +0000
 
@@ -402,7 +423,7 @@ kmousetool (4:4.8.2-0ubuntu1) precise; urgency=low
 
 kmousetool (4:4.8.1-0ubuntu1) precise; urgency=low
 
-  * New upstream release 
+  * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 04 Mar 2012 21:25:31 +0100
 
@@ -450,4 +471,3 @@ kmousetool (4.8.4-1) unstable; urgency=low
     install list.
 
  -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 17 Jun 2012 19:12:17 -0300
-
