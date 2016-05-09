@@ -1,10 +1,19 @@
-kmousetool (4:15.08.3-2~1.gbpf7ba44) UNRELEASED; urgency=medium
+kmousetool (4:15.08.3-2~2.gbpf8151d) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @f8151d20a3a3b8b357735d24a5f637764d88b609 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @f7ba4474565fcd244c7fcfe94fbead9168057121 **
 
   * Bump Standards-Version to 3.9.8
+  * Force installation into debian/tmp
+  * Migrate dbg package to automatic dbgsym
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:46:13 +0200
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 12:45:11 +0200
 
 kmousetool (4:15.08.3-1) unstable; urgency=medium
 
