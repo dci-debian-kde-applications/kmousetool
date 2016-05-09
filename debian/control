@@ -29,17 +29,3 @@ Description: mouse manipulation tool for the disabled
  buttons hurts.
  .
  This package is part of the KDE accessibility module.
-
-Package: kmousetool-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: kmousetool (= ${binary:Version}), ${misc:Depends}
-Breaks: kdeaccessibility-dbg (<< 4:4.8)
-Replaces: kdeaccessibility-dbg (<< 4:4.8)
-Description: debugging symbols for kmousetool
- This package contains the debugging symbols for kmousetool. It is to be used
- in order to be able provide proper back traces for possible crashes or
- for running kmousetool in gdb or valgrind for meaningful output
- .
- This package is part of the KDE accessibility module.
