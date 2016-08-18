@@ -1,3 +1,11 @@
+kmousetool (4:16.08.0-1~1.gbp3ed34f) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @3ed34f2f440268ab3b690b899328a615f00fd958 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 22:45:10 +0200
+
 kmousetool (4:15.08.3-2) unstable; urgency=medium
 
   [ Automatic packaging ]
