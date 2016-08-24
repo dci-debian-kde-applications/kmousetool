@@ -6,6 +6,7 @@ kmousetool (4:16.08.0-0r1) UNRELEASED; urgency=medium
     directory as install place.
     - remove kmousetool.install, no more used now
   * Remove not-installed file, no more used now.
+  * Do not ship TODO as documentation, since it is useless for users.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Aug 2016 18:41:46 +0200
 
