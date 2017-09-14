@@ -1,0 +1,48 @@
+---
+name: kmousetool
+version: 17.08.1
+summary: mouse manipulation tool for the disabled
+description: |-
+ KMouseTool clicks the mouse whenever the mouse cursor pauses briefly. It was
+ designed to help those with repetitive strain injuries, for whom pressing
+ buttons hurts.
+confinement: strict
+grade: stable
+apps:
+    kexi:
+        command: kf5-launch kmousetool
+        plugs:
+        - kde-frameworks-5-plug
+        - home
+        - x11
+        - opengl
+        - network
+        - network-bind
+        - unity7
+        - pulseaudio
+plugs:
+    kde-frameworks-5-plug:
+        content: kde-frameworks-5-all
+        interface: content
+        default-provider: kde-frameworks-5
+        target: kf5
+parts:
+    kexi:
+        after:
+        - kde-frameworks-5-dev
+        - kde-frameworks-5-env
+        plugin: cmake
+        build-packages:
+        - kdoctools-dev
+        - libphonon4qt5-dev
+        - libxt-dev
+        - libxtst-dev
+        - libpulse0
+        source: https://download.kde.org/stable/applications/17.08.1/src/kmousetool-17.08.1.tar.xz
+        configflags:
+        - "-DKDE_INSTALL_USE_QT_SYS_PATHS=ON"
+        - "-DCMAKE_INSTALL_PREFIX=/usr"
+        - "-DCMAKE_BUILD_TYPE=Release"
+        - "-DENABLE_TESTING=OFF"
+        - "-DBUILD_TESTING=OFF"
+        - "-DKDE_SKIP_TEST_SETTINGS=ON"
