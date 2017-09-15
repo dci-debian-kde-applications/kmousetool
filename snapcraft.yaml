@@ -9,7 +9,7 @@ description: |-
 confinement: strict
 grade: stable
 apps:
-    kexi:
+    kmousetool:
         command: kf5-launch kmousetool
         plugs:
         - kde-frameworks-5-plug
@@ -27,7 +27,7 @@ plugs:
         default-provider: kde-frameworks-5
         target: kf5
 parts:
-    kexi:
+    kmousetool:
         after:
         - kde-frameworks-5-dev
         - kde-frameworks-5-env
