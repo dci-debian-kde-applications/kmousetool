@@ -1,6 +1,9 @@
 #!/usr/bin/make -f
 
+l10npkgs_firstversion_ok := 4:17.04.0-1~
+
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
 
 override_dh_strip:
 	$(overridden_command) --dbgsym-migration='kmousetool-dbg (<= 4:15.08.3-2~1.gbpf7ba44~)'

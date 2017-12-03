@@ -31,6 +31,8 @@ Package: kmousetool
 Architecture: any
 Section: utils
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: mouse manipulation tool for the disabled
  KMouseTool clicks the mouse whenever the mouse cursor pauses briefly. It was
  designed to help those with repetitive strain injuries, for whom pressing
