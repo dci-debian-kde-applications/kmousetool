@@ -4,6 +4,12 @@ kmousetool (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Standards-Version to 4.1.1, no changes required.
   * Simplify watch file, and switch it to https.
+  * Update the build dependencies following the port to Frameworks:
+    - remove kde-sc-dev-latest, and kdelibs5-dev
+    - add extra-cmake-modules, libkf5dbusaddons-dev, libkf5doctools-dev,
+      libkf5i18n-dev, libkf5iconthemes-dev, libkf5notifications-dev,
+      libkf5xmlgui-dev, libphonon4qt5-dev, libphonon4qt5experimental-dev, and
+      qtbase5-dev
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Dec 2017 19:31:21 +0100
 
