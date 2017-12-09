@@ -1,6 +1,6 @@
-kmousetool (4:17.08.3-0r1) UNRELEASED; urgency=medium
+kmousetool (4:17.08.3-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release:
     - switches to Qt5/KF5 (Closes: #874957)
   * Bump Standards-Version to 4.1.2, no changes required.
@@ -14,7 +14,7 @@ kmousetool (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Use the right dhmk helper.
   * Add kde-l10n breaks/replaces.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 03 Dec 2017 19:31:21 +0100
+ -- Pino Toscano <pino@debian.org>  Sat, 09 Dec 2017 09:22:50 +0100
 
 kmousetool (4:16.08.0-1) unstable; urgency=medium
 
